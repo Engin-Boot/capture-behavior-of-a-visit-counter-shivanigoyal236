@@ -17,4 +17,4 @@ Scenario: Compute parking slots to reserve for visiting specialists
   is equal to parking spaces available in area when sensor senses the
   car it subtract count by one  and same if someone
   take out his car from the space then it increase the count by one
-  Then by this count we can always know the free parking slots 
+  Then by this count we can always know the free parking slots
