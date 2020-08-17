@@ -10,6 +10,8 @@ Scenario: Report visitor trends during a week of operation
 
 Scenario: Alert when seating capacity is full
 
-  Given
-  When
-  Then
+  Given a sensor that senses head of person and a computer that is on
+  When a person enters in seating area then sensor senses the person
+  and add it to computer and when he comes out then it subtract him
+  so when no of persons is equal to the no of seats 
+  Then computer alerts that seating capacity is full
