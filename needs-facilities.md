@@ -2,8 +2,9 @@
 
 Scenario: Report visitor trends during a week of operation
 
-  Given a id generating system that is connected to visit counter and a report generation system
-  when a visitor visits the hospital 
+  Given a id generating system that is connected to visit counter
+  and a report generation system
+  when a visitor visits the hospital
   then we get the all information in a report
 
 Scenario: Alert when seating capacity is full
