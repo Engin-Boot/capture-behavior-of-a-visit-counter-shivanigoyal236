@@ -2,7 +2,8 @@
 
 Scenario: Show patient visits during working days and holidays
 
-  given a id generating system with time stamp connected to visit counter
+  given a id generating system with time stamp connected to
+  visit counter
   when a patient enters in hospital
   then it shows visits during working days and holidays
   
